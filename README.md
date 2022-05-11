@@ -4,8 +4,7 @@ This is a program to translate sentences from English to Kreole using a given da
 
 ## How it works?
 ### Dataset
-The file 1000_KM_A_040521.txt contains the kreole translation of the english sentences in 1000_English_A_040521.txt.<br>
-Each line corresponds to a sentence.
+The file 1000_KM_A_040521.txt contains the kreole translation of the english sentences in 1000_English_A_040521.txt. Each line corresponds to a sentence.
 
 ### Mapping
 The program mapping.cpp maps each english word of a sentence to all the words of its corresponding kreole translation. Associated with each mapping (english-kreole pair) is its frequency. After the operation is performed on all the sentences, the mappings are sorted in decreasing order of frequency and the result is written to a new file called Mapping.txt.
